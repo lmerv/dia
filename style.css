@@ -92,4 +92,29 @@
   --line-height: calc (2px + 2ex + 2px);
   --font-weight: normal;
 }
+
+html {
+  background-color: var(--white);
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  font-weight: var(--font-weight);
+  line-height: var(--line-height);
+  scroll-behavior: smooth;
+}
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+body {
+  color: var(--gray-4);
+  padding: 0;
+  margin: 0;
+}
+
+*, ::after, ::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
 /*# sourceMappingURL=assets/maps/style.css.map */
