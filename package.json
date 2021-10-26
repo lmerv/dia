@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/lmerv/dia/issues"
   },
-  "homepage": "https://github.com/lmerv/dia#readme"
+  "homepage": "https://github.com/lmerv/dia#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
 }
