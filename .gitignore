@@ -54,4 +54,5 @@ node_modules/
 .sass-cache/
 
 # Rajout par Laurent:
-workspace.code-workspace
+workspace.code-workspace 
+babel.config.json
