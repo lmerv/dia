@@ -28,7 +28,7 @@ function sassDevTask() {
     return src(files.sass_src_path)
         .pipe(sourcemaps.init())
         .pipe(plumber())
-        .pipe(sass({outputStyle: 'compact'}).on('error', sass.logError)) //  dev: compact prod : compressed : {outputStyle: 'compressed'} remplace css nano
+        .pipe(sass()) //  {outputStyle: 'compressed'}).on('error', sass.logError)     dev: compact prod : compressed : {outputStyle: 'compressed'} remplace css nano
         .pipe(autoprefixer('last 2 versions'))
         .pipe(sourcemaps.write(files.cssMap_dest_path))
         .pipe(dest('./'))
