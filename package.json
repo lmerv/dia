@@ -1,0 +1,24 @@
+{
+  "name": "dia",
+  "version": "1.0.0",
+  "description": "dia: wordpressy theme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lmerv/dia.git"
+  },
+  "keywords": [
+    "dia",
+    "wordpress",
+    "theming"
+  ],
+  "author": "info@merveille.ch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lmerv/dia/issues"
+  },
+  "homepage": "https://github.com/lmerv/dia#readme"
+}
