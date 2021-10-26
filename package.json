@@ -22,7 +22,9 @@
   },
   "homepage": "https://github.com/lmerv/dia#readme",
   "devDependencies": {
-    "gulp": "^4.0.2"
+    "@babel/core": "^7.15.8",
+    "gulp": "^4.0.2",
+    "sass": "^1.43.3"
   },
   "dependencies": {
     "browser-sync": "^2.27.6",

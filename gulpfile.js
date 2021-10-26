@@ -3,7 +3,7 @@ const { src, dest, watch, series, parallel }    = require('gulp');
 
 // Gulp packages
 var gulp                = require('gulp');
-const sass              = require('gulp-sass');
+var sass                = require('gulp-sass')(require('sass'));
 const babel             = require("gulp-babel");
 const sourcemaps        = require('gulp-sourcemaps');
 const plumber           = require('gulp-plumber');
@@ -84,6 +84,6 @@ function watchDevTask()
 
 exports.default = series(
     parallel(sassDevTask),
-    parallel(jsDevTask),
+    // parallel(jsDevTask),
     watchDevTask,
 );
