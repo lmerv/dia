@@ -1,0 +1,5 @@
+<?php
+
+// VARIABLES
+
+$themename = "anake";

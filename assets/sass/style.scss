@@ -8,7 +8,9 @@
   Author: laurent info@merveille.ch
 */
 
-@import 'variables/theme-1';
+// Css 
+@import 'vendors/layout-01/layout-compagny';
+// pico css
+@import 'vendors/pico/pico.slim.scss';
 
-@import 'root/root';
-@import 'root/html';
+@import 'variables/theme-1';
